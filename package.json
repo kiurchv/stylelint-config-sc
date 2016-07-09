@@ -1,0 +1,32 @@
+{
+  "name": "stylelint-config-sc",
+  "version": "1.0.0",
+  "description": "Sunshine Code's shareable config for stylelint",
+  "keywords": [
+    "stylelint",
+    "config",
+    "stylelint-config",
+    "sunshine-code"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose \"test/**/*.js\""
+  },
+  "repository": "github:sunshine-code/stylelint-config-sc",
+  "author": "Myroslav Kiurchev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sunshine-code/stylelint-config-sc/issues"
+  },
+  "homepage": "https://github.com/sunshine-code/stylelint-config-sc#readme",
+  "dependencies": {
+    "stylelint-config-standard": "^10.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "stylelint": "^6.9.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^6.9.0"
+  }
+}
